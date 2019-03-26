@@ -1,0 +1,131 @@
+/* common  */
+*{ margin: 0; padding: 0; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+em,i{ font-style: normal; }
+ul,li{ margin: 0; padding: 0; list-style: none; }
+img{ border: 0; vertical-align: middle; }
+button{ cursor: pointer; }
+a{ color: #333; text-decoration: none; }
+html {
+    font: 100px/1.5 \5fae\8f6f\96c5\9ed1, 'Arial';
+    -webkit-tap-highlight-color: transparent;
+}
+body{-webkit-font-smoothing: antialiased;color: #333;font-size: 0.14rem;margin: 0}
+button,input,select{ font-family: \5fae\8f6f\96c5\9ed1, 'Arial'; outline: none; border: 0; font-size: 0.14rem;color: #333; }
+b,u,i{ font-weight: normal; text-decoration: none; font-style: normal; }
+.hide,.none{ display: none; }
+.wrap{ margin: 0 auto; }
+.pr{ position: relative; }
+.tac{ text-align: center; }
+.db{ display: block; }
+.gray{color: #999;}
+.deepBlue{color:#05AAE0;}
+/*清除浮动代码*/
+.clearfloat:after{ display: block; clear: both; content: ""; visibility: hidden; height: 0; }
+.clearfloat{ zoom: 1; }
+.overflow{ overflow: hidden; }
+.clear{ clear: both; }
+.fl{float: left;}
+.fr{float: right;}
+.fontweightb{
+    font-weight: bold;
+}
+.tc{
+    text-align: center;
+}
+.tc{
+    text-align: center;
+}
+.displayin{
+    display: inline-block;
+}
+ /*cyf */
+.text-right{text-align:right;}
+.ma-r10{margin-right: 0.10rem;}
+.ma-t5{margin-top: 0.05rem;}
+.ma-t10{margin-top: 0.10rem;}
+.ma-b10{margin-bottom: 0.10rem;}
+.ma5{margin: 0.05rem;}
+.ma10{margin: 0.1rem;}
+.ma0h10{margin:0 0.1rem;}
+.ma0v10{margin:0.1rem 0;}
+.d-b{display: block;}
+.d-f{display: flex;}
+.flex1{flex: 1;}
+.pa5{padding: 0.05rem;}
+.pa10{padding: 0.1rem;}
+.pa-b5{padding-bottom: 0.05rem;}
+.input-border{border: #ccc solid 0.01rem;border-radius:0.05rem;padding: 0.05rem;}
+.border-radius5{border-radius: 0.05rem;}
+.border-radius10{border-radius: 0.1rem;}
+.border-top1{border-top: #ccc solid 0.01rem;}
+.border-bottom1{border-bottom: #ccc solid 0.01rem;}
+.border-bottom-dotted{border-bottom-style:dotted !important;}
+.btn-color-red{color:red!important;border-color: red!important;}
+.btn-no-border{border:0!important;}
+.color-red{color:red;}
+.text-xs {font-size: 0.12rem;}
+.text-sm {font-size: 0.14rem;}
+.text-lg {font-size: 0.18rem;}
+.text-xl {font-size: 0.24rem;}
+.text-xxl {font-size: 0.32rem;}
+.text-xxxl {font-size: 0.42rem;}
+
+
+.checkboxThreeLabel{
+    cursor: pointer;
+    position: absolute;
+    right: 0.08rem;
+    margin-top: 0.1rem;
+}
+.checkboxThreeLabel input[type=checkbox]{display: none;}
+.checkboxThreeLabel input[type=checkbox] + div{
+    box-shadow: 0.02rem 0.02rem 0.05rem #999;
+    background: #ddd;
+    position: relative;
+    width: 0.44rem;
+    height: 0.22rem;
+    border-radius: 0.22rem;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.checkboxThreeLabel input[type=checkbox]:checked + div{
+    background: #666;
+}
+.checkboxThreeLabel input[type=checkbox] + div i{
+    display: block;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 0.2rem;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    position: absolute;
+    top: 0.01rem;
+    z-index: 1;
+    left: 0.01rem;
+    background: #FFF;
+}
+.checkboxThreeLabel input[type=checkbox]:checked + div i{
+    left: 0.23rem;
+}
+
+@media only screen and (min-width:320px) {
+    html{font-size: 100px;}
+}
+@media only screen and (min-width:375px) {
+    html{font-size: 120px;}
+}
+@media only screen and (min-width:400px) {
+    html{font-size: 130px;}
+}
+@media only screen and (min-width:760px) {
+    html{font-size: 240px;}
+}
+@media only screen and (min-width:980px) {
+    html{font-size: 320px;}
+}
